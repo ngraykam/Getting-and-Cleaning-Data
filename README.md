@@ -3,6 +3,7 @@ Project for course "Getting and Cleaning Data"
 This is the project for the course Getting and Cleaning Data. The R script, run_analysis.R, performs the works below.
 
 1. Get the data:
+
    1.1 Download the file, store it and unzip it in the data folder.
    1.2 List the files.
    1.3 Read the data from the files.

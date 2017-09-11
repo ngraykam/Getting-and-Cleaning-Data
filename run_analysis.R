@@ -110,6 +110,7 @@
   library(dplyr)
   tidyUCIData<-aggregate(. ~subject + activity, UCIData, mean)
   tidyUCIData<-tidyUCIData[order(tidyUCIData$subject,tidyUCIData$activity),]
+  write.table(tidyUCIData, file = "tidy.txt", row.name=FALSE)
 
 
 
